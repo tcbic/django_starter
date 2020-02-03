@@ -10,6 +10,8 @@ django = "*"
 gunicorn = "*"
 python-decouple = "*"
 whitenoise = "*"
+django-heroku = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
