@@ -30,8 +30,6 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(", ")
 
-DATABASES['default'] = dj_database_url.config(conn_max_age=600)
-
 
 # Application definition
 
