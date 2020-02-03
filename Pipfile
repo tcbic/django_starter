@@ -12,6 +12,7 @@ python-decouple = "*"
 whitenoise = "*"
 django-heroku = "*"
 psycopg2-binary = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
